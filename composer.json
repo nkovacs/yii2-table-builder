@@ -1,0 +1,24 @@
+{
+	"name": "nkovacs/yii2-table-builder",
+	"description": "Table builder migration helper extension for Yii 2",
+	"type": "yii2-extension",
+	"keywords": ["yii2","extension","migration"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Nikola Kovacs",
+			"email": "n.kovacs@mito.hu"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"nkovacs\\tablebuilder\\": ""
+		}
+	},
+	"extra": {
+		"bootstrap": "nkovacs\\tablebuilder\\Bootstrap"
+	}
+}
