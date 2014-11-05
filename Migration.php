@@ -71,9 +71,9 @@ class Migration extends \yii\db\Migration
         $keys = [];
         $completedTables = [];
         $completedKeys = [];
-        $primary = false;
         try {
             foreach ($tables as $tableName => $config) {
+                $primary = false;
                 $columns = [];
                 foreach ($config as $columnName => $column) {
                     if (is_array($column)) {
