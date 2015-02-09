@@ -74,6 +74,6 @@ An example migration:
 
         public function down()
         {
-            $this->tearDown($this->tables);
+            $this->teardown($this->tables);
         }
     }
