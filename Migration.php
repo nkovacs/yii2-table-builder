@@ -23,6 +23,8 @@ class Migration extends \yii\db\Migration
         if ($this->tableOptions === true) {
             if ($this->db->driverName === 'mysql') {
                 $this->tableOptions = 'ENGINE=InnoDB';
+            } else {
+                $this->tableOptions = '';
             }
         }
     }
